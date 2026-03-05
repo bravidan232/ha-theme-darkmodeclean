@@ -1,0 +1,39 @@
+DarkModeClean:
+
+  modes:
+    dark:
+
+      lovelace-background: "center / contain no-repeat fixed url('/local/HABG_dark.png')"
+
+      primary-background-color: "#00354E"
+      secondary-background-color: "#002436"
+      card-background-color: "#00354E"
+      dialog-background-color: "#00354E"
+      md-sys-color-surface: "#00354E"
+      md-sys-color-surface-container: "#006390"
+      primary-text-color: "#FFFFFF"
+      secondary-text-color: "#F1F1F1"
+      sidebar-background-color: "#006390"
+      sidebar-text-color: "#FFFFFF"
+      app-header-background-color: "#006390"
+      app-header-text-color: "#FFFFFF"
+      divider-color: "rgba(255,255,255,0.25)"
+
+      card-mod-card: |
+        ha-card {
+          background: var(--md-sys-color-surface-container) !important;
+          color: #ffffff !important;
+          border-radius: 12px;
+        }
+
+      card-mod-dialog: |
+        ha-dialog .mdc-dialog__surface {
+          background: var(--md-sys-color-surface-container) !important;
+          color: #ffffff !important;
+          border-radius: 12px;
+        }
+
+    light:
+      primary-background-color: "#fafafa"
+      card-background-color: "#ffffff"
+      primary-text-color: "#000000"
