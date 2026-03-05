@@ -1,1 +1,0 @@
-Pro version of DarkModeClean theme.
